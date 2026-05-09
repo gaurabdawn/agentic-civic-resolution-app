@@ -1,17 +1,5 @@
-AI-Powered Civic Grievance Resolution Platform
-
-Tech Stack
-
-Databricks Apps → Frontend app
-Genie → Natural language Q&A
-Agent Bricks → AI agent workflows
-Lakebase → Persistent memory/context
-Delta Tables → Complaint storage
-AI/BI Dashboards → Storytelling & analytics
-Python + SQL → Pipelines & agents
-
-# CivicOps AI
-## AI-Powered Civic Grievance Resolution Platform
+# AI-Powered Civic Grievance Resolution Platform
+## Building Intelligent Apps with Data + AI - Databricks Hackathon
 
 CivicOps AI is an intelligent urban governance platform built on the Databricks ecosystem.  
 The platform uses AI agents, conversational analytics, operational memory, and dashboards to help cities automate civic grievance resolution using open/public datasets.
