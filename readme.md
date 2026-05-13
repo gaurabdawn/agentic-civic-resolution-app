@@ -221,11 +221,11 @@ to generate SQL.
 ## complaint_summary
 |column|description|Purpose|
 |---|---|---|
-|ward   |''''Administrative area | Enables questions like: Which wards have highest complaints?|
-|Category |''''Complaint type:sewage, sanitation, roads, water supply  | Which category is increasing fastest?|
-|total_complaints | ''''Creates KPI metric, Genie can now answer | Total complaints by ward|
-|unresolved_count| ''''CRITICAL metric | SLA analytics, operational backlog, governance dashboards|
-|avg_escalation_risk|  |''''Which wards have highest escalation risk?|
+|ward   |Administrative area | Enables questions like: Which wards have highest complaints?|
+|Category |Complaint type:sewage, sanitation, roads, water supply  | Which category is increasing fastest?|
+|total_complaints |Creates KPI metric, Genie can now answer | Total complaints by ward|
+|unresolved_count|CRITICAL metric | SLA analytics, operational backlog, governance dashboards|
+|avg_escalation_risk|  |Which wards have highest escalation risk?|
 
 
 # Add Table Description
