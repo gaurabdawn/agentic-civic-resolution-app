@@ -227,12 +227,30 @@ to generate SQL.
 |unresolved_count|CRITICAL metric | SLA analytics, operational backlog, governance dashboards|
 |avg_escalation_risk|  |Which wards have highest escalation risk?|
 
-
+```text
 # Add Table Description
 COMMENT ON TABLE complaint_summary IS
 'Civic complaint analytics summarized by ward and category';
 - Genie depends heavily on metadata.
 - Add comments.
+
+  # Column Description
+  COMMENT ON COLUMN complaint_summary.ward IS
+'Administrative ward in Bengaluru city';
+
+COMMENT ON COLUMN complaint_summary.category IS
+'Type of civic issue such as sewage, sanitation, or water supply';
+
+COMMENT ON COLUMN complaint_summary.total_complaints IS
+'Total number of civic complaints received';
+
+COMMENT ON COLUMN complaint_summary.unresolved_count IS
+'Complaints not yet resolved';
+
+COMMENT ON COLUMN gold_complaint_summary.avg_escalation_risk IS
+'Average AI-predicted escalation risk score from 0 to 100';
+```
+
 
 # Why This Matters ?
 With metadata:
