@@ -183,10 +183,13 @@ CivicOps AI helps cities:
 - improve civic response efficiency using AI
 
 
+
+
 ## Genie is: Natural Language → SQL → Analytics Intelligence
 
 ## Architecture:
 
+```text
 User Question
       ↓
 Genie
@@ -198,6 +201,7 @@ Generates SQL
 Queries SQL Warehouse
       ↓
 Returns Analytics Response
+```
 
 # Pre-requisites
 - Good curated analytics tables
