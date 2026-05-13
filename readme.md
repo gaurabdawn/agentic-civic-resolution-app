@@ -219,6 +219,7 @@ to generate SQL.
 
 # Table columns example. 
 ## complaint_summary
+|column|description|Purpose|
 |---|---|---|
 |ward   |''''Administrative area | Enables questions like: Which wards have highest complaints?|
 |Category |''''Complaint type:sewage, sanitation, roads, water supply  | Which category is increasing fastest?|
