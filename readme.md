@@ -183,6 +183,7 @@ CivicOps AI helps cities:
 - improve civic response efficiency using AI
 
 
+---
 
 # Genie Integration in detail
 ## Genie is: Natural Language → SQL → Analytics Intelligence
