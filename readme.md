@@ -184,7 +184,7 @@ CivicOps AI helps cities:
 
 
 
-
+# Genie Integration in detail
 ## Genie is: Natural Language → SQL → Analytics Intelligence
 
 ## Architecture:
