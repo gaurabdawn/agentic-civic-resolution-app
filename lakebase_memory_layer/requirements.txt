@@ -1,0 +1,10 @@
+pyspark
+databricks-sdk
+sentence-transformers
+pandas
+numpy
+pyyaml
+faiss-cpu
+fastapi
+uvicorn
+pytest

@@ -1,0 +1,13 @@
+catalog: lakebase
+schema: memory
+
+tables:
+  session_memory: session_memory
+  semantic_memory: semantic_memory
+
+embedding:
+  model_name: all-MiniLM-L6-v2
+
+vector_search:
+  endpoint_name: lakebase-endpoint
+  index_name: semantic-memory-index
